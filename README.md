@@ -74,6 +74,8 @@ Training remained relatively stable over the 500 epochs, as indicated by the dec
 The generated samples z_f result in a smooth and realistic probability density function that closely reflects the underlying structure of the transformed data z. The visual comparison of the KDE plots confirms that the GAN has successfully learned to generate samples that mimic the target distribution's characteristics.
 
 ## 7. Graph Plot
+<img width="1484" height="555" alt="image" src="https://github.com/user-attachments/assets/572a2c03-a493-4c11-a755-ecb61cd452b8" />
+
 
 ## 8. Conclusion
 In this assignment, a roll-number-based nonlinear transformation was applied to a set of uniformly distributed samples. A Generative Adversarial Network (GAN) was successfully implemented and trained to learn the probability density function of the transformed variable (z), demonstrating its capability to approximate complex, unknown distributions from data without assuming any analytical form. The results, as shown in the comparative KDE plot, indicate that the GAN effectively captured the underlying distribution, showcasing the power of GANs in modeling and generating data that closely resembles a target distribution.
